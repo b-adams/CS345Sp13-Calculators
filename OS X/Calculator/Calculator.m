@@ -12,9 +12,9 @@
 
 -(void)pressKey:(char)character
 {
-    [self setNumberOnScreen:[self numberOnScreen]+1];
-    [self setNumberAccumulated:[[self numberAccumulated]+1]];
-    [self setOperationPending:[[self operationPending]+1]];
+    [self setNumberOnScreen:[self numberOnScreen]];
+    //[self setNumberAccumulated:[[self numberOnScreen]]];
+     [self setOperationPending: [self operationPending]];
 }
 
 @end
