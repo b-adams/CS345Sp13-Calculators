@@ -12,8 +12,8 @@
 
 -(void)pressKey:(char)character
 {
-    [self setNumberOnScreen:[self numberOnScreen]];
-    //[self setNumberAccumulated:[[self numberOnScreen]]];
+    [self setNumberOnScreen:[self numberOnScreen]+1];
+    [self setNumberAccumulated:[self numberAccumulated]];
      [self setOperationPending: [self operationPending]];
 }
 

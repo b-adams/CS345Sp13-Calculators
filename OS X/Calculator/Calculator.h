@@ -10,7 +10,7 @@
 
 @interface Calculator : NSObject
 
-@property NSNumber* numberOnScreen;
+@property int numberOnScreen;
 @property NSNumber* numberAccumulated;
 @property NSString* operationPending;
 
